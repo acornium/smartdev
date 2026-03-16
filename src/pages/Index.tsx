@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Target, Image, Palette, Type, FileText, ArrowRight } from "lucide-react";
+import logoUrl from "/logo-smart-group.svg";
 
 const sections = [
   { title: "Миссия и ценности", desc: "Позиционирование и философия бренда", url: "/mission", icon: Target },
@@ -20,7 +21,7 @@ const Index = () => {
         </div>
         <div className="relative z-10 text-center max-w-3xl animate-fade-in">
           <img
-            src="/smartdev/logo-smart-group.svg"
+            src={logoUrl}
             alt="Логотип Группа Смарт"
             className="h-24 mx-auto mb-8"
           />
