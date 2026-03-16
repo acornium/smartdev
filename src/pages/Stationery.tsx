@@ -69,9 +69,12 @@ const Stationery = () => {
         <div className="flex gap-4">
           <div className="w-1 bg-primary rounded-full shrink-0" />
           <div>
-            <p className="font-sans-n font-semibold text-sm text-foreground">Иванов Иван</p>
-            <p className="text-xs text-muted-foreground">Директор по инвестициям</p>
-            <p className="text-xs text-muted-foreground mt-2">+7 (495) 123-45-67 · ivanov@gruppa-smart.ru</p>
+            <p className="text-xs text-muted-foreground mb-2">С уважением,</p>
+            <p className="font-sans-n font-semibold text-sm text-foreground">Андрей Филев</p>
+            <p className="text-xs text-muted-foreground">Инвестиционный директор</p>
+            <p className="text-xs text-muted-foreground">АО Группа Смарт</p>
+            <p className="text-xs text-muted-foreground mt-2">+7 (916) 657-01-71</p>
+            <p className="text-xs text-muted-foreground">a.filev@smartdg.ru</p>
             <img src={logoUrl} alt="Logo" className="h-4 object-contain object-left mt-3 brightness-0" />
           </div>
         </div>
