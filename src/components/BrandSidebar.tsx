@@ -31,10 +31,10 @@ export function BrandSidebar() {
       <SidebarContent className="pt-8">
         {!collapsed && (
           <div className="px-6 pb-6 mb-4 border-b border-sidebar-border">
-            <p className="text-xs uppercase tracking-[0.3em] text-sidebar-foreground/60 font-body">
+            <p className="text-xs uppercase tracking-[0.3em] text-sidebar-foreground/60 font-sans-n">
               Брендбук
             </p>
-            <h2 className="text-lg font-display font-semibold text-sidebar-primary mt-1">
+            <h2 className="text-lg font-sans-n font-semibold text-sidebar-primary mt-1">
               Группа Смарт
             </h2>
           </div>

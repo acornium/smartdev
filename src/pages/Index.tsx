@@ -20,14 +20,14 @@ const Index = () => {
         </div>
         <div className="relative z-10 text-center max-w-3xl animate-fade-in">
           <img
-            src={`${import.meta.env.BASE_URL}logo-smart-group.png`}
+            src="/logo-smart-group.svg"
             alt="Логотип Группа Смарт"
-            className="h-24 mx-auto mb-8 brightness-0 invert"
+            className="h-24 mx-auto mb-8"
           />
-          <h1 className="text-5xl md:text-6xl font-display font-bold mb-6 leading-tight">
+          <h1 className="text-5xl md:text-6xl font-sans-n font-bold mb-6 leading-tight">
             Группа Смарт
           </h1>
-          <p className="text-lg md:text-xl opacity-80 font-body max-w-xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl opacity-80 font-sans-n max-w-xl mx-auto leading-relaxed">
             Частный инвестор в проекты и компании, направленные на развитие недвижимости малых форматов в России
           </p>
           <div className="mt-4 text-sm uppercase tracking-[0.25em] opacity-50">
@@ -38,7 +38,7 @@ const Index = () => {
 
       {/* Navigation Grid */}
       <section className="max-w-5xl mx-auto px-6 py-20">
-        <h2 className="text-2xl font-display font-semibold text-foreground mb-10">
+        <h2 className="text-2xl font-sans-n font-semibold text-foreground mb-10">
           Разделы брендбука
         </h2>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
@@ -50,7 +50,7 @@ const Index = () => {
               style={{ animationDelay: `${i * 100}ms` }}
             >
               <s.icon className="h-6 w-6 text-primary mb-4" />
-              <h3 className="text-lg font-display font-semibold text-card-foreground mb-1">{s.title}</h3>
+              <h3 className="text-lg font-sans-n font-semibold text-card-foreground mb-1">{s.title}</h3>
               <p className="text-sm text-muted-foreground flex-1">{s.desc}</p>
               <div className="mt-4 flex items-center text-sm text-primary font-medium opacity-0 group-hover:opacity-100 transition-opacity">
                 Перейти <ArrowRight className="ml-1 h-4 w-4" />

@@ -14,11 +14,11 @@ interface ColorCard {
 const colors: ColorCard[] = [
   {
     name: "Тёмно-синий (основной)",
-    hex: "#1B2A4A",
-    rgb: "27, 42, 74",
-    cmyk: "64, 43, 0, 71",
-    hsl: "220° 46% 20%",
-    bg: "#1B2A4A",
+    hex: "#002137",
+    rgb: "0, 33, 55",
+    cmyk: "100, 40, 0, 78",
+    hsl: "200° 100% 11%",
+    bg: "#002137",
     textClass: "text-white",
   },
   {
@@ -62,7 +62,7 @@ const Colors = () => {
   return (
     <div className="max-w-4xl mx-auto px-6 py-16">
       <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground mb-3">Раздел 03</p>
-      <h1 className="text-4xl font-display font-bold text-foreground mb-4">Цветовая палитра</h1>
+      <h1 className="text-4xl font-sans-n font-bold text-foreground mb-4">Цветовая палитра</h1>
       <p className="text-muted-foreground mb-10 leading-relaxed max-w-2xl">
         Фирменная палитра строится на контрасте тёмно-синего и белого. Нажмите на код цвета, чтобы скопировать его в буфер обмена.
       </p>
@@ -74,7 +74,7 @@ const Colors = () => {
               className={`h-32 flex items-end p-5 ${c.textClass}`}
               style={{ backgroundColor: c.bg }}
             >
-              <span className="text-lg font-display font-semibold">{c.name}</span>
+              <span className="text-lg font-sans-n font-semibold">{c.name}</span>
             </div>
             <div className="p-5 space-y-2">
               {[

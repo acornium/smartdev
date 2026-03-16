@@ -1,4 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+/* Core Sans N — основной, для переписки */
+@font-face { font-family: 'Core Sans N'; src: url('/fonts/CoreSansN-Regular.ttf') format('truetype'); font-weight: 400; font-style: normal; font-display: swap; }
+
+/* Core Sans E — для соцсетей */
+@font-face { font-family: 'Core Sans E'; src: url('/fonts/CoreSansE-Light.otf') format('opentype'); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Core Sans E'; src: url('/fonts/CoreSansE-Regular.otf') format('opentype'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Core Sans E'; src: url('/fonts/CoreSansE-Medium.otf') format('opentype'); font-weight: 500; font-style: normal; font-display: swap; }
+
+/* Core Sans BR — для визиток */
+@font-face { font-family: 'Core Sans BR'; src: url('/fonts/CoreSansBR-Regular-Full.otf') format('opentype'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Core Sans BR'; src: url('/fonts/CoreSansBR-Thin.otf') format('opentype'); font-weight: 100; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Core Sans BR'; src: url('/fonts/CoreSansBR-Light.otf') format('opentype'); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Core Sans BR'; src: url('/fonts/CoreSansBR-Medium.otf') format('opentype'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Core Sans BR'; src: url('/fonts/CoreSansBR-Bold.otf') format('opentype'); font-weight: 700; font-style: normal; font-display: swap; }
 
 @tailwind base;
 @tailwind components;
@@ -7,47 +22,47 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 220 40% 13%;
+    --foreground: 200 100% 11%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 40% 13%;
+    --card-foreground: 200 100% 11%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 40% 13%;
+    --popover-foreground: 200 100% 11%;
 
-    --primary: 220 60% 15%;
+    --primary: 200 100% 11%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 220 20% 95%;
-    --secondary-foreground: 220 60% 15%;
+    --secondary-foreground: 200 100% 11%;
 
     --muted: 220 14% 96%;
     --muted-foreground: 220 10% 46%;
 
     --accent: 220 40% 90%;
-    --accent-foreground: 220 60% 15%;
+    --accent-foreground: 200 100% 11%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 220 20% 88%;
     --input: 220 20% 88%;
-    --ring: 220 60% 15%;
+    --ring: 200 100% 11%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 220 60% 12%;
-    --sidebar-foreground: 220 20% 90%;
+    --sidebar-background: 200 100% 8%;
+    --sidebar-foreground: 200 20% 90%;
     --sidebar-primary: 0 0% 100%;
-    --sidebar-primary-foreground: 220 60% 12%;
-    --sidebar-accent: 220 50% 18%;
+    --sidebar-primary-foreground: 200 100% 8%;
+    --sidebar-accent: 200 80% 15%;
     --sidebar-accent-foreground: 0 0% 100%;
-    --sidebar-border: 220 40% 20%;
-    --sidebar-ring: 220 60% 40%;
+    --sidebar-border: 200 60% 18%;
+    --sidebar-ring: 200 80% 35%;
 
-    --navy: 220 60% 15%;
-    --navy-light: 220 40% 25%;
-    --navy-dark: 220 70% 8%;
+    --navy: 200 100% 11%;
+    --navy-light: 200 60% 22%;
+    --navy-dark: 200 100% 6%;
   }
 }
 
@@ -57,7 +72,7 @@
   }
 
   body {
-    @apply bg-background text-foreground font-body antialiased;
+    @apply bg-background text-foreground font-sans-n antialiased;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -69,7 +84,13 @@
   .font-display {
     font-family: 'Playfair Display', serif;
   }
-  .font-body {
-    font-family: 'Source Sans 3', sans-serif;
+  .font-sans-n {
+    font-family: 'Core Sans N', sans-serif;
+  }
+  .font-sans-e {
+    font-family: 'Core Sans E', sans-serif;
+  }
+  .font-sans-br {
+    font-family: 'Core Sans BR', sans-serif;
   }
 }

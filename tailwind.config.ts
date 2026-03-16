@@ -65,7 +65,9 @@ export default {
       },
       fontFamily: {
         display: ['"Playfair Display"', 'serif'],
-        body: ['"Source Sans 3"', 'sans-serif'],
+        'sans-n': ['"Core Sans N"', 'sans-serif'],
+        'sans-e': ['"Core Sans E"', 'sans-serif'],
+        'sans-br': ['"Core Sans BR"', 'sans-serif'],
       },
       keyframes: {
         "accordion-down": {
