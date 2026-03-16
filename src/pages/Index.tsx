@@ -14,7 +14,7 @@ const Index = () => {
   return (
     <div className="min-h-[calc(100vh-3.5rem)]">
       {/* Hero */}
-      <section className="relative flex flex-col items-center justify-center py-32 px-6 bg-primary text-primary-foreground overflow-hidden">
+      <section className="relative flex flex-col items-center justify-center py-32 px-6 text-primary-foreground overflow-hidden" style={{ backgroundColor: '#002137' }}>
         <div className="absolute inset-0 opacity-5">
           <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-white/20 -translate-y-1/2 translate-x-1/3" />
           <div className="absolute bottom-0 left-0 w-72 h-72 rounded-full bg-white/10 translate-y-1/3 -translate-x-1/4" />
