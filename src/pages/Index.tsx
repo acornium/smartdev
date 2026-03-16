@@ -25,11 +25,8 @@ const Index = () => {
             alt="Логотип Группа Смарт"
             className="h-24 mx-auto mb-8"
           />
-          <h1 className="text-5xl md:text-6xl font-sans-n font-bold mb-6 leading-tight">
-            Группа Смарт
-          </h1>
           <p className="text-lg md:text-xl opacity-80 font-sans-n max-w-xl mx-auto leading-relaxed">
-            Частный инвестор в проекты и компании, направленные на развитие недвижимости малых форматов в России
+            Многопрофильная инвестиционная группа, финансирующая проекты с высоким потенциалом развития в различных отраслях экономики России
           </p>
           <div className="mt-4 text-sm uppercase tracking-[0.25em] opacity-50">
             Брендбук
