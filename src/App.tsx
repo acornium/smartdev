@@ -19,7 +19,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/smartdev">
         <BrandLayout>
           <Routes>
             <Route path="/" element={<Index />} />
