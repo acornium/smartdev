@@ -13,18 +13,18 @@ const Stationery = () => {
         <div className="aspect-[1.75/1] rounded-lg bg-primary text-primary-foreground flex flex-col justify-between p-6 shadow-lg">
           <img src={logoUrl} alt="Logo" className="h-8 object-contain object-left" />
           <div>
-            <p className="font-sans-n font-semibold text-sm">Иванов Иван Иванович</p>
-            <p className="text-xs opacity-70 mt-0.5">Директор по инвестициям</p>
+            <p className="font-sans-n font-semibold text-sm">Марат Симонянц</p>
+            <p className="text-xs opacity-70 mt-0.5">Председатель совета директоров</p>
           </div>
         </div>
         {/* Back */}
         <div className="aspect-[1.75/1] rounded-lg bg-white border border-border flex flex-col justify-between p-6 shadow-lg">
           <div />
           <div className="space-y-1 text-xs text-muted-foreground">
-            <p>+7 (495) 123-45-67</p>
-            <p>ivanov@gruppa-smart.ru</p>
-            <p>www.gruppa-smart.ru</p>
-            <p>г. Москва, ул. Примерная, д. 1</p>
+            <p>+7 (985) 999 00 88</p>
+            <p>+7 (495) 989 95 93</p>
+            <p>ms@smartdg.ru</p>
+            <p>г. Москва, ул. Василисы Кожиной, д.1 к.1</p>
           </div>
         </div>
       </div>
